@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  font-family: "Roboto Mono", monospace;
+}
+.p-info {
+  color: aliceblue;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+.nav {
+  background-color: #1a2f48;
+  width: 17rem;
+}
+.details {
+  background-color: white;
+  flex: 1;
+  margin-left: 2rem;
+}
+
+.profile img {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  border: 0.4rem solid black;
+}
+.profile {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  margin-top: 1rem;
+}
+.c-info {
+  margin-left: 3rem;
+  margin-top: 1rem;
+}
+.c-info p {
+  color: #5678ae;
+  margin-top: 1rem;
+  font-size: small;
+  line-height: 1.5rem;
+  opacity: 0.8;
+}
+.c-info i {
+  color: #5678ae;
+}
+.c-info a {
+  color: #5678ae;
+  text-decoration: none;
+}
+.c-info a:hover {
+  color: #5678ae;
+  opacity: 1;
+  text-decoration: underline;
+}
+.about-p p {
+  color: #86878a;
+}
+.exp li {
+  margin-top: 1rem;
+  color: #595a5d;
+}
+.exp ul {
+  margin-left: 1rem;
+  padding: 0;
+}
+.line {
+  display: inline-block;
+  background-color: rgb(210, 200, 200);
+  width: 40rem;
+  height: 0.2rem;
+}
+
+.about-p {
+  margin-bottom: 3rem;
+}
+.Education {
+  display: flex;
+  justify-content: start;
+}

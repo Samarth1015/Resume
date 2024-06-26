@@ -8,7 +8,7 @@
 .container {
   display: flex;
   flex-direction: row;
-  height: 100vh;
+  height: 100%;
 }
 .nav {
   background-color: #1a2f48;
@@ -80,4 +80,46 @@
 .Education {
   display: flex;
   justify-content: start;
+}
+.achievement ul {
+  color: bisque;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    flex-direction: column;
+    height: auto;
+  }
+  .nav {
+    width: 100%;
+  }
+  .details {
+    margin-left: 0;
+    margin-top: 2rem;
+  }
+  .c-info {
+    margin-left: 1rem;
+  }
+}
+
+@media (max-width: 300px) {
+  .profile img {
+    height: 100px;
+    width: 100px;
+  }
+  .c-info p {
+    font-size: smaller;
+  }
+  .line {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .c-info {
+    margin-left: 0.5rem;
+  }
+  .details {
+    margin-left: 0;
+  }
 }
